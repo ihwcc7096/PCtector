@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<StackPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxtest.controlfxmlUI">
+   <children>
+      <TabPane prefHeight="300.0" prefWidth="300.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Main">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fx:id="ibutton" fitHeight="241.0" fitWidth="249.0" layoutX="25.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../res/pclock.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="setting">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Label fx:id="deletefloca" layoutX="51.0" layoutY="80.0" text="삭제 폴더가 지정되지 않았습니다." />
+                        <Button fx:id="fsearch" layoutX="101.0" layoutY="105.0" mnemonicParsing="false" text="폴더 지정하기" />
+                        <Label fx:id="sendimage" layoutX="51.0" layoutY="80.0" text="이미지가 지정되지 않았습니다." />
+                        <Button fx:id="image" layoutX="101.0" layoutY="105.0" mnemonicParsing="false" text="사진파일 지정하기" />
+                        <Button fx:id="logoutbutton" layoutX="101.0" layoutY="140.0" mnemonicParsing="false" text="로그아웃" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab fx:id="etc" text="etc">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Label fx:id="batteryinfo" layoutX="51.0" layoutY="80.0" text="test" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</StackPane>

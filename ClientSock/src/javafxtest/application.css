@@ -1,0 +1,59 @@
+/*!
+ * Start Bootstrap - SB Admin 2 v3.3.7+1 (http://startbootstrap.com/template-overviews/sb-admin-2)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+.btn-outline {
+  -fx-color: inherit;
+  -fx-background-color: transparent;
+  -fx-transition: all .5s;
+}
+#loginbutton {
+  -fx-color: #428bca;
+}
+.btn-success.btn-outline {
+  -fx-color: #5cb85c;
+}
+.btn-info.btn-outline {
+  -fx-color: #5bc0de;
+}
+.btn-warning.btn-outline {
+  -fx-color: #f0ad4e;
+}
+.btn-danger.btn-outline {
+  -fx-color: #d9534f;
+}
+#loginbutton:hover,
+.btn-success.btn-outline:hover,
+.btn-info.btn-outline:hover,
+.btn-warning.btn-outline:hover,
+.btn-danger.btn-outline:hover {
+  -fx-color: white;
+}
+
+.btn-circle {
+  -fx-width: 30px;
+  -fx-height: 30px;
+  -fx-padding: 6px 0;
+  -fx-border-radius: 15px;
+  -fx-text-alignment: center;
+  -fx-font-size: 12px;
+  -fx-line-height: 1.428571429;
+}
+.btn-circle.btn-lg {
+  -fx-width: 50px;
+  -fx-height: 50px;
+  -fx-padding: 10px 16px;
+  -fx-border-radius: 25px;
+  -fx-font-size: 18px;
+  -fx-line-height: 1.33;
+}
+.btn-circle.btn-xl {
+  -fx-width: 70px;
+  -fx-height: 70px;
+  -fx-padding: 10px 16px;
+  -fx-border-radius: 35px;
+  -fx-font-size: 24px;
+  -fx-line-height: 1.33;
+}
